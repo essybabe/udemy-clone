@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid rgb(68, 64, 64); */
+    }
+
+    body {
+        background-color: rgb(253, 253, 253);
+        color: rgb(5, 5, 5);
+        font-family: "Poppins", sans-serif;
+      }
+    /* NAV BAR */
+    .nav_flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo{
+        width: 100px;
+        height: 50px;
+    }
+    .button_flex{
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        
+    }
+    #cart{
+        margin-left: 80px;
+    }
+    #sign-in{
+        background-color: white;
+        color: black;
+        width: 5rem;
+        height: 3rem;
+    }
+    #sign-out{
+        background-color: black;
+        color: white;
+        width: 5rem;
+        height: 3rem;
+
+    }
+    #globe{
+        border: 1px solid black;
+        padding: 15px;
+        width: 20px;
+        
+
+    }
+    .input_div{
+        width: 35%;
+        height: 40px;
+        border-radius: 20px;
+        padding-left: 10px;
+    }
+    .input_search{
+        width: 93%;
+        height: 100%;
+        border-radius: 20px;
+    }
+
+    /*  Category drop down*/
+    .tooltip {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black;
+      }
+
+      .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 300px;
+        background-color: rgb(251, 251, 251);
+        color: rgb(1, 1, 1);
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        top: 20px;
+        left: 0%;
+      }
+      .tooltip:hover .tooltiptext {
+        visibility: visible;
+      }
+    /*  sub Categort drop down*/
+    .sub__tooltip {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black;
+      }
+
+      .sub__tooltip .sub__tooltiptext {
+        visibility: hidden;
+        width: 300px;
+        background-color: rgb(251, 251, 251);
+        color: rgb(1, 1, 1);
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 100%;
+      }
+      .sub__tooltip:hover .sub__tooltiptext {
+        visibility: visible;
+      }
+
+    ul{
+        list-style: none;
+    }
+    a{
+        padding-right: 90px;
+        color: black;
+        text-decoration: none;
+    }
+    /* .parent_ul{
+        position: fixed;
+    
+    } */
+    .first_child_ul{
+        position: fixed;
+       top: 5px;
+    }
+    .content{
+        padding: 30px;
+    }
+    .content h2{
+        font-size: 40px;
+    }
+    .content p{
+        font-size: 20px;
+    }
+    .content-flex ul{
+        display: flex;
+        justify-content:space-between;
+        font-weight: bolder;
+        
+        
+    }
+    .content-border{
+        border: 1px solid black;
+        margin: 20px;
+        padding: 20px;
+    }
+    .content-border p{
+        font-size: 15px;
+    }
+    .content-border button{
+        width: 8rem;
+        height: 3rem;
+        margin-top: 20px;
+        
+    }
+    .row-padding{
+        padding: 50px;
+        display: flex;
+        justify-content:space-evenly;
+    }
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+        
+      }
+    .row-padding h3{
+        /* font-size: 5px; */
+    } 
+    .checked{
+        color: orange;
+    }
+    .flex{
+        display: flex;
+        justify-content: space-between;
+        margin: 30px;
+        font-weight: bolder;
+    }
+    .grid{
+        column-count: 4;
+        margin: 20px;
+        padding: 20px;
+    
+        
+    }
+    .content-flex{
+        background-color: rgb(228, 228, 245);
+    }
+    .btn{
+        width: 10rem;
+        height: 3rem;
+        margin-left: 30px;
+        font-weight: bolder;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .content-text{
+        text-align: center;
+        margin-top: 80px;
+        
+
+    }
+    .content-img{
+        margin: 20px;
+        display: flex;
+        justify-content: space-between;
+        
+
+    }
+    .grid-content{
+        display: flex;
+        justify-content:space-around;
+        margin: 40px;
+        padding: 40px;
+    }
+    .grid-content h1{
+        font-size: 40px;
+    }
+    .grid-content ul li{
+        font-size: 25px;
+        list-style: disc;
+    }
+    .grid-content button{
+        width: 8rem;
+        height: 3rem;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    #btn2{
+        width:15rem ;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        
+    }
+    .content-style{
+        margin: 30px;
+        font-size: 20px;
+        padding-top: 90px;
+        /* padding-bottom: 50px; */
+    }
+    .content-style button{
+        width: 15rem;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+    footer{
+        /* background-color:black; */
+        font-weight: bolder;
+        
+        
+        
+    }
+    .content-end{
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        margin: 40px;
+    
+
+    
+    }
+    .content-end li{
+        /* color:black; */
+        /* list-style: none; */
+        
+    }
+    .content-end li:hover{
+        text-decoration: underline;
+    }
+    .content-end button{
+        /* border: 1px solid white; */
+        /* color: white; */
+        /* background-color: black; */
+        width: 10rem;
+        height: 3rem;
+        font-weight: bold;
+        /* margin: 3px; */
+    
+        
+    
+    }
+    .content-copy{
+        display: flex;
+        justify-content: space-between;
+        /* margin: 40px; */
+      
+    }
+    .content-copy p{
+        font-weight: bolder;
+        margin-top: 40px;
+        margin: 40px;
+
+    }
+    
+    
